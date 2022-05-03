@@ -12,7 +12,7 @@ body {
     font-size: 15px;
     background-color: var(--white-background);
     font-family: 'Lexend Deca', sans-serif;
-    height: auto;
+    height: 100%;
     padding: 25px 0;
     width: 100%;
     display: flex;
@@ -41,7 +41,8 @@ body {
 .container-cards {
     width: 100%;
     height: 100%;
-    padding: 45px;
+    padding: 50px;
+    position: relative;
 }
 
 .sedans {
@@ -58,7 +59,7 @@ body {
 
 .container-cards .sub-titulo {
     margin: 30px 0;
-    font-size: 36px;
+    font-size: 34px;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
     text-transform: uppercase;
@@ -126,7 +127,7 @@ body {
 
     body {
         height: 100vh;
-        padding: 0;
+        padding: 0px;
     }
 
     .container {
@@ -136,7 +137,8 @@ body {
     }
 
     .link {
-        margin-top: 80px;
+        position: absolute;
+        bottom: 45px;
     }
 }
 
